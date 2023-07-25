@@ -11,7 +11,7 @@ handler = WebhookHandler(os.environ['1268eb4f16e5d543a622a4c4341abbd6'])
 
 import openai
 
-openai.api_key = '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'
+openai.api_key = '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'
 
 
 @app.route("/callback", methods=['POST'])
